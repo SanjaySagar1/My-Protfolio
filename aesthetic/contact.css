@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.content .me{
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 25px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    height: 70vh;
+    padding: 50px;
+}
+.main .left{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.left .input{
+    height: 50px;
+    padding: 0 20px;
+    margin: 10px;
+    border: 0;
+
+    border-radius: 8px;
+    background-color: transparent;
+    border-bottom: 2px solid #2430FF;
+}
+.left .message{
+    height: 200px;
+    padding: 0 20px;
+    margin: 10px;
+    background-color: transparent;
+    border: 0;
+    border-radius: 8px;
+    border-bottom: 2px solid #2430FF;
+}
+.left button{
+    background-color: #2430FF;
+    border: 0px;
+    margin: 0 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 10px;
+    transition: all .5s;
+    color: white;
+}
+.left input{
+    color: white;
+    transition: all .2s;
+}
+::placeholder{
+    color: #2430FF;
+}
+.left input:focus{
+    border: none;
+    outline: 2px solid #2430FF;
+}
+.left button:hover{
+    box-shadow: 0 0 20px #2430FF;
+}
+.main .right{
+    width: 300px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #2430FF;
+    text-transform: uppercase;
+}
+.icons a img{
+
+}
